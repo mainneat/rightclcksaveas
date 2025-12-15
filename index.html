@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rightclcksaveas</title>
+    <style>
+        /* Style minimaliste : juste fond gris + typo */
+        body {
+            font-family: sf pro text, sans-serif;
+            background-color: #f5f5f5;
+            font-size: 15px;
+            padding: 1px;
+            line-height: 1;
+        }
+        
+        /* LES TITRES */
+        h1 {
+            font-size: 18px;           /* Taille du titre principal */
+            display: inline-block;
+            font-weight: normal;         /* Gras */
+            color: black;              /* Couleur */
+            margin-bottom: 10px;
+            background-color: yellow;       /* Espace en dessous */
+            text-align: center;
+        }
+        
+        h2 {
+            font-size: 18px;           /* Taille des sous-titres */
+            display: inline-block;
+            font-weight: normal;       /* Normal ou bold */
+            color: black;
+            background-color: yellow;
+        }
+        
+        /* LE CORPS DE TEXTE */
+        p {
+            margin-top: 5px;
+            margin-bottom: 5px;
+            font-size: 15px;           /* Taille du texte */
+            color: #000000;               /* Couleur (gris foncé) */
+            line-height: 1;          /* Espacement entre les lignes */
+        }
+        
+        /* LES LIENS */
+        a {
+            font-size: 15px;
+            color: rgb(13, 0, 255);               /* Couleur des liens */
+            text-decoration: none;     /* Enlève le soulignement */
+        }
+        
+        a:hover {
+            
+            /*background-color: yellow; /* Souligne au survol */
+        }
+
+            /* Bloc header centré */
+            .header {
+            max-width: 600px;
+            margin-bottom: 0px;
+            margin: 0 auto 10px auto;
+            text-align: center;
+        }
+        
+        /* Les 3 colonnes */
+        .container {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        .column {
+            margin-top: 10px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        
+        /* Image de profil */
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            display: block;      /* Pour pouvoir centrer avec margin auto */
+            margin: 0 auto 10px auto;  /* Centré horizontalement */
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- 
+    === PREMIER BLOC : HEADER ===
+    Ce bloc contient tes infos personnelles
+    -->
+    <div class="header">
+        <img src="cat.jpg" alt="Photo de profil" class="profile-img">
+        <h1>louis, cy</h1>
+        <p class="bio">
+            i read art and order books
+        </p>
+        <a href="https://twitter.com/rightclcksaveas" class="twitter" target="_blank">
+            twitter
+        </a> - <a href="mailto:louis@rightclcksaveas.com?subject=First%20contact&body=Hello%20Louis%2C%20Cy%2C" class="twitter" target="_blank">
+            mail
+        </a>
+    </div>
+    
+    <!-- 
+    === DEUXIÈME BLOC : 3 COLONNES ===
+    Container principal qui contient les 3 colonnes
+    -->
+    <div class="container">
+        <div class="three-columns">
+            
+            <!-- Colonne 1 : Thoughts -->
+            <div class="column">
+                <h2>things i think about</h2>
+                <p> - click more (again) </p>
+                <p> - hyperevm needs more .wtf or .fun </p>
+            </div>
+            
+            <!-- Colonne 2 : Readings -->
+            <div class="column">
+                <h2>things i read and recomend reading</h2>
+                <p> - <a href="https://x.com/based16z/status/1999321715843981650" class="twitter" target="_blank">
+                    job advice </a> </p>
+                <p> - <a href="https://x.com/benroy/status/1999215143729742002" class="twitter" target="_blank">
+                        notes on internet addiction </a> </p>
+                <p> - <a href="https://buttondown.com/grugq/archive/bad-opsec-considered-harmful/" class="twitter" target="_blank">
+                        bad opsec considered harmful </a> </p>
+
+            </div>
+            
+            <!-- Colonne 3 : Shop -->
+            <div class="column">
+                <h2>things u can buy me</h2>
+                <p>
+                    - <a href="https://www.ideanow.online/store/SORRY-I-DONT-WORK-HERE-hat-Green-p406006269" class="twitter" target="_blank">
+                        i don't work here
+                    </a>
+                </p>
+            </div>
+
+            <!-- Colonne 4 : Tools -->
+            <div class="column">
+                <h2>things u can use</h2>
+                <p>
+                    - <a href="https://cmyk.danielpetho.com/" class="twitter" target="_blank">
+                        cmyk halftone emulator
+                    </a>
+                </p>
+            </div>
+            
+        </div>
+    </div>
+
+</body>
+</html>
+
